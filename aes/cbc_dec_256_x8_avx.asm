@@ -152,6 +152,7 @@ initial_4:
 	jnz	partials
 done:
 	FUNC_RESTORE
+	vzeroupper
 	ret
 
 endproc_frame

@@ -143,8 +143,8 @@ main_loop:
 	jne	main_loop
 
 done:
-
 	FUNC_RESTORE
+	vzeroupper
 	ret
 
 endproc_frame
